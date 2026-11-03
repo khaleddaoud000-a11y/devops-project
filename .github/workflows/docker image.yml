@@ -1,8 +1,8 @@
 name:docker image ci
-on:
-push:
+on: 
+ push:
 branches: ["main"]
-jobs :
+jobs:
   build:
   runs-on:ubuntu-latest
   steps 
