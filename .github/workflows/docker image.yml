@@ -1,5 +1,5 @@
 name:docker image ci
-on: 
+ on: 
  push:
 branches: ["main"]
 jobs:
